@@ -7,6 +7,7 @@ import bigMe from '../img/me.JPG'
 export default function AboutMe(propt) {
 
     var windowHeight = window.innerHeight;
+    
 
     const [showBigMe, setShowBigMe] = useState(true);
 
