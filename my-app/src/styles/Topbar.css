@@ -1,0 +1,36 @@
+.topbar-main-container img {
+    height: 40px;
+    border-radius: 10px;
+
+}
+
+.topbar-main-container {
+    z-index: 999;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 60px;
+    color: black;
+    background-color: blanchedalmond;
+}
+
+.topbar-left-section{
+    display: flex;
+    align-items: center;
+    width: 50px;
+    margin-left: 20px;
+}
+
+.topbar-right-section {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.topbar-right-section button {
+    margin-right:10px;
+}
+
