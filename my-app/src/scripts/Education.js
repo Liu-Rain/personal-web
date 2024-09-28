@@ -1,5 +1,10 @@
-import React from 'react'
+import React from 'react';
 import "../styles/Education.css";
+import amazonPic from '../img/amazon.png'
+
+
+
+
 
 export default function Education(propt) {
     
@@ -11,7 +16,7 @@ export default function Education(propt) {
                 <div><b>June 2023 - Present</b>The University of Adelaide</div>
                 <div>
                     <div>Web Practice-Amazon</div>
-                    <div>img</div>
+                    <div className='amazon-pic-div' ><img src={amazonPic} /></div>
                     <div>JavaScript HTML CSS</div>
                 </div>
             </div>
